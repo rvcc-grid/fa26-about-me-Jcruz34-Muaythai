@@ -27,3 +27,8 @@ header{
 #bio{
     text-align: center;
 }
+
+#Hobbies ul li{
+    list-style-position: inside;
+   color: black;
+}
