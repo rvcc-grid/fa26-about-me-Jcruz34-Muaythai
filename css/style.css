@@ -1,0 +1,29 @@
+body {
+    background-color:#FED9C3;
+    color: #1E3090;
+    font-family:Aldrich;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Aguafina;
+    font-size: 35pt;
+    
+}
+
+header{
+    text-align: center;
+}
+
+#Hero,footer{
+    text-align: center;
+    background-color: #22708C;
+    padding: 10px;
+    border:  6px solid #1E3090;
+}
+
+#Hero img{
+    width: 350px;
+}
+
+#bio{
+    text-align: center;
+}
