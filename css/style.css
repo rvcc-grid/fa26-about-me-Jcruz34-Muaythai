@@ -13,6 +13,8 @@ header{
     text-align: center;
 }
 
+/* Hero section */
+
 #Hero,footer{
     text-align: center;
     background-color: #22708C;
@@ -24,11 +26,30 @@ header{
     width: 350px;
 }
 
+/* bio section */
+
 #bio{
     text-align: center;
 }
 
+/* Hobbies section */
+
 #Hobbies ul li{
     list-style-position: inside;
    color: black;
+}
+
+/* Gallery */
+
+#Gallery{
+ border: 2px solid #1E3090;
+padding: 15px;
+
+}
+#Gallery img{
+    max-height: 100%;
+}
+
+#Gallery figure{
+    text-align: center;
 }
