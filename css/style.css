@@ -44,6 +44,7 @@ header{
 #Gallery{
  border: 2px solid #1E3090;
 padding: 15px;
+margin-bottom: 2rem;
 
 }
 #Gallery img{
@@ -52,4 +53,25 @@ padding: 15px;
 
 #Gallery figure{
     text-align: center;
+}
+
+#Lit{
+    border: 2px solid #1E3090;
+padding: 15px;
+margin-bottom: 2rem;
+
+}
+
+#Lit div p{
+    text-align: center;
+}
+#Lit div p:first-letter{
+    color: #1E3090;
+    float: left;
+    font-size: 3rem;
+    border: 3px solid #1E3090;
+    margin-right: .10em;
+    padding: 0 8px;
+    box-shadow: 3px 3px 3px;
+    text-shadow: 1px 1px 1px ;
 }
