@@ -108,3 +108,149 @@ margin-bottom: 2rem;
   }
 }
 
+/* Contact form */
+
+#contact {
+    max-width: 700px;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+#contact fieldset{
+display: grid;
+grid-template-columns: 1fr;
+gap: 0.5rem;
+background-color: #22708C;
+color: #FED9C3;
+border: 6px solid #1E3090;
+border-radius: 12px;
+padding: 1rem;
+margin: 0;
+min-width: none;
+}
+
+#contact legend{
+    font-family: Aquafina;
+    color: #1E3090;
+    font-size: 24pt;
+    background-color: #FED9C3;
+    border: 3px solid #1E3090;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+#contact label{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact select,
+#contact textarea {
+    width: 95%;
+    padding: 12px;
+    font-family: Aldrich;
+    font-size: 1rem;
+    color: #1E3090;
+    background-color: #FED9C3;
+    border: 2px solid #1E3090;
+    border-radius: 6px;
+}
+
+#contact textarea{
+    min-height: 140px;
+    resize: vertical;
+}
+
+/* Radio List */
+
+#contact ul{
+    list-style: none;
+    margin: 0.5rem;
+    padding: 0;
+}
+
+#contact ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:6px;
+}
+
+#contact [data-captcha] {
+    margin: 0.5rem;
+}
+
+#contact button[type="submit"] {
+    width:100%;
+    padding:14px;
+    margin-top:0.5rem;
+    font-family: Aldrich;
+    font-size:1.2rem;
+    font-weight: bold;
+    letter-spacing:0.05rem;
+    text-transform: uppercase;
+    color:#FED9C3;
+    background-color: #1E3090;
+    border:3px solid #FED9C3;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+
+#contact button[type="submit"]:hover,
+#contact button[type="submit"]:focus {
+    color: #1E3090;
+    background-color: #FED9C3;
+    border-color: #1E3090;
+}
+
+@media (min-width: 768px) {
+    #contact fieldset {
+        grid-template-columns: 160px 1fr;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.5rem 2rem;
+    }
+
+     #contact label {
+        margin-top: 0;
+        text-align: right;
+    }
+
+    #contact textarea {
+        align-self: start;
+    }
+
+    #contact ul,
+    #contact [data-captcha],
+    #contact button[type="submit"] {
+        grid-column: 1 / -1;
+    }
+
+    #contact ul {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    #contact button[type="submit"] {
+        justify-self: center;
+        width: 60%;
+    }
+}
+
+/* Larger screens */
+
+@media (min-width: 1100px) {
+    #contact {
+        max-width: 800px;
+    }
+
+    #contact fieldset {
+        grid-template-columns: 200px 1fr;
+        padding: 2rem 3rem;
+    }
+}
