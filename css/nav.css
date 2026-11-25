@@ -19,7 +19,15 @@ main{
 }
 
 /* navbar */
-
+.navbar{
+    background-color:#22708c;
+    color: #FED9C3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 
 
 /* logo */
