@@ -32,8 +32,19 @@ main{
 
 /* logo */
 
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+}
 
-
+.logo h1{
+    margin: 0%;
+    font-size: 24pt;
+    color: #FED9C3;
+}
 /* navigation list */
 
 
