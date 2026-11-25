@@ -87,3 +87,28 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+
+@media screen and (min-width:60rem) {
+
+     .navbar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar-links{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       width: auto;
+       margin-left: auto;
+    }
+
+    .navbar-links ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 1.5rem;
+        margin: 0%;
+        padding: 0%;
+    }
+}
