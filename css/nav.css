@@ -73,7 +73,13 @@ main{
     display: inline-block;
 }
 
+.navbar-links a:hover,
+.navbar-links a:focus{
 
+    background-color: #FED9C3;
+    color: #22708c;
+    border-radius:10px;
+}
 
 
 /* 
